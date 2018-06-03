@@ -1,5 +1,5 @@
 Source: libdisplaycore-driver-sh1106
-Section: libraries
+Section: main
 XBSC-Family: pic32
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
 Package: libdisplaycore-driver-sh1106
-Section: libraries
+Section: main
 Architecture: all
 XBSC-Group: DisplayCore
 XBSC-Subgroup: Drivers
