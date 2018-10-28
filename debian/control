@@ -7,13 +7,13 @@ Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
 Package: libdisplaycore-driver-sh1106
-Section: main
 Architecture: all
 XBSC-Group: DisplayCore
 XBSC-Subgroup: Drivers
+XBSC-Subsubgroup: OLED
 Depends: libdisplaycore-core
 Provides: SH1106.h
-Description: SH1106 OLED Base Driver
+Description: SH1106 Base Driver
  This is a base driver implemented by SH1106_DSPI and SH1106_DTWI
 
 
