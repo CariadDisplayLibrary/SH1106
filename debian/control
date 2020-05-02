@@ -1,4 +1,4 @@
-Source: libdisplaycore-driver-sh1106
+Source: libcariad-driver-sh1106
 Section: main
 XBSC-Family: pic32
 Priority: extra
@@ -6,12 +6,13 @@ Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-driver-sh1106
+Package: libcariad-driver-sh1106
+Replaces: libdisplaycore-driver-sh1106
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Drivers
 XBSC-Subsubgroup: OLED
-Depends: libdisplaycore-core
+Depends: libcariad-core
 Provides: SH1106.h
 Description: SH1106 Base Driver
  This is a base driver implemented by SH1106_DSPI and SH1106_DTWI

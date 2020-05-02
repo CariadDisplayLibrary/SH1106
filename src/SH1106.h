@@ -1,9 +1,9 @@
 #ifndef _SH1106_H
 #define _SH1106_H
 
-#include <DisplayCore.h>
+#include <Cariad.h>
 
-class SH1106 : public DisplayCore {
+class SH1106 : public Cariad {
     public: // Constants
         static const int Width = 132;
         static const int Height = 64;
